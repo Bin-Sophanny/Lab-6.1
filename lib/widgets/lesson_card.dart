@@ -13,7 +13,7 @@ class LessonCard extends StatelessWidget {
   final Color percentColor;
 
   const LessonCard({
-    Key? key,
+    super.key,
     required this.title,
     required this.deadline,
     required this.grammar,
@@ -23,7 +23,7 @@ class LessonCard extends StatelessWidget {
     required this.percent,
     required this.percentText,
     required this.percentColor,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

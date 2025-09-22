@@ -7,11 +7,11 @@ class CustomTabBar extends StatelessWidget {
   final Function(int)? onTabSelected;
 
   const CustomTabBar({
-    Key? key,
+    super.key,
     required this.tabs,
     this.selectedIndex = 0,
     this.onTabSelected,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
