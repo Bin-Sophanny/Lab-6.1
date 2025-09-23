@@ -42,21 +42,21 @@ class CustomBottomNavigationBar extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Padding(
               padding: EdgeInsets.only(top: 12.0),
-              child: Icon(Icons.assignment_outlined),
+              child: Icon(Icons.book_outlined),
             ),
             label: '',
           ),
           BottomNavigationBarItem(
             icon: Padding(
               padding: EdgeInsets.only(top: 12.0),
-              child: Icon(Icons.people_outline),
+              child: Icon(Icons.record_voice_over_outlined),
             ),
             label: '',
           ),
           BottomNavigationBarItem(
             icon: Padding(
               padding: EdgeInsets.only(top: 12.0),
-              child: Icon(Icons.bookmark_border),
+              child: Icon(Icons.person_outlined),
             ),
             label: '',
           ),
